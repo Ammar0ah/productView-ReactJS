@@ -1,0 +1,16 @@
+.container{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.item{
+    margin: 10px
+}
+.page{
+    margin: 10px; 
+}
+.input{
+    width: 50%;
+   margin: auto;
+}

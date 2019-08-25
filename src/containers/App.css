@@ -30,4 +30,30 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+body{
+  background: #f4f4f4;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+.leftDiv{
+  float: left;
+  width: 50%;
+  background-image: linear-gradient(to right , rgba(4, 47, 75, 0.801) , rgba(9, 87, 139, 0.801)), url('../images/rawImage.jpg');
+  /* background-color: #042f4b; */
+  height: 100vh;
+  clip-path: polygon(0 0 , 100% 0,70% 100%,0 100%);
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightDiv{
+
+  float : right;
+  height: 100vh;
+  width: 50%;
 }
